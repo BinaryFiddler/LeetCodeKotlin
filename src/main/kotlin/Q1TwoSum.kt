@@ -1,6 +1,6 @@
 class Q1TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        var map: HashMap<Int, Int> = HashMap();
+        val map: HashMap<Int, Int> = HashMap();
 
         for (index in nums.indices) {
             map[nums[index]] = index
