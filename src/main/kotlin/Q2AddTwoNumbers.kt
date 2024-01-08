@@ -27,9 +27,11 @@ class AddTwoNumbers {
 
         return dummy.next
     }
+
+    class ListNode(var `val`: Int) {
+        var next: ListNode? = null
+    }
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
+
 
